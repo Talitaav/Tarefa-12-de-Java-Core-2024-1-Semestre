@@ -3,6 +3,7 @@ package tarefa12MetodosEmJava;
 import java.util.Scanner;
 
 public class Exercicio02 {
+	/* 2) Calcular Fatorial: Escreva um método para calcular o fatorial de um número inteiro positivo passado como parâmetro.*/
 
 	public static int calcular(int numero) {
 
@@ -19,8 +20,7 @@ public class Exercicio02 {
 	}
 
 	public static void main(String[] args) {
-		// 2) Calcular Fatorial: Escreva um método para calcular o fatorial de um número
-		// inteiro positivo passado como parâmetro.
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite um número: ");
 		int numero = sc.nextInt();
