@@ -3,6 +3,11 @@ package tarefa12MetodosEmJava;
 import java.util.Scanner;
 
 public class Exercicio01 {
+	/*
+		 * 1) Verificar Número Primo: Crie um método que receba um número inteiro como
+		 * argumento e retorne verdadeiro se o número for primo, e falso caso contrário.
+		 * 
+		 */
 
 	public static boolean primo(int numero) {
 
@@ -21,11 +26,7 @@ public class Exercicio01 {
 	}
 
 	public static void main(String[] args) {
-		/*
-		 * 1) Verificar Número Primo: Crie um método que receba um número inteiro como
-		 * argumento e retorne verdadeiro se o número for primo, e falso caso contrário.
-		 * 
-		 */
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite um número: ");
 		int numero = sc.nextInt();
