@@ -1,6 +1,7 @@
 package tarefa12MetodosEmJava;
 
 public class Exercicio06 {
+	/* 6) Contar Vogais: Escreva uma função que conte o número de vogais em uma*/
 
 	public static int contarVogais(String str) {
 		str = str.toLowerCase();
@@ -15,7 +16,6 @@ public class Exercicio06 {
 	}
 
 	public static void main(String[] args) {
-		// 6) Contar Vogais: Escreva uma função que conte o número de vogais em uma
 		String str = " The King of Dogtown";
 		int numVogais = contarVogais(str);
 		System.out.println("O número de vogais na string é: " + numVogais);
