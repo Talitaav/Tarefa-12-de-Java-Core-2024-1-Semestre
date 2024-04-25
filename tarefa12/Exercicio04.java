@@ -5,8 +5,7 @@ import java.util.List;
 public class Exercicio04 {
 
 	public static double media(List<Integer> numeros) {
-		// 4) Calcular Média: Crie uma função que calcule a média de uma lista de
-		// números passada como parâmetro.
+		/*4) Calcular Média: Crie uma função que calcule a média de uma lista de números passada como parâmetro.*/
 
 		if (numeros.isEmpty()) {
 			return 0.0;
