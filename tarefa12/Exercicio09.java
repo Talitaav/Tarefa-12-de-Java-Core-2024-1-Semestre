@@ -3,9 +3,9 @@ package tarefa12;
 import java.util.Scanner;
 
 public class Exercicio09 {
-	// 9) Verificar Triângulo: Implemente um método que receba três números inteiros
-	// como argumentos e retorne verdadeiro se eles podem ser os comprimentos dos
-	// lados de um triângulo, e falso caso contrário.
+	/* 9) Verificar Triângulo: Implemente um método que receba três números inteiros
+	 como argumentos e retorne verdadeiro se eles podem ser os comprimentos dos
+	lados de um triângulo, e falso caso contrário.*/
 
 	public static boolean verificar(int lado1, int lado2, int lado3) {
 		if (lado1 <= 0 || lado2 <= 0 || lado3 <= 0) {
