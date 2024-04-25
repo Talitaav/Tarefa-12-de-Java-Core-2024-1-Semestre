@@ -1,8 +1,8 @@
 package tarefa12;
 
 public class Exercicio10 {
-	// 10) Calcular Média Ponderada: Escreva uma função que calcule a média
-	// ponderada de três valores, onde os pesos são passados como argumentos.
+	/*10) Calcular Média Ponderada: Escreva uma função que calcule a média
+	 ponderada de três valores, onde os pesos são passados como argumentos.*/
 
 	public static double calcular(double valor1, double valor2, double valor3, int peso1, int peso2,
 			int peso3) {
