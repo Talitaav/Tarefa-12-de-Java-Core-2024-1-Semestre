@@ -3,9 +3,10 @@ package tarefa12;
 import java.util.Scanner;
 
 public class Exercicio08 {
+	/*8) Calcular Potência: Crie uma função que calcule a potência de um número inteiro base elevado a um expoente inteiro positivo.*/
+
 
 	public static void main(String[] args) {
-//8) Calcular Potência: Crie uma função que calcule a potência de um número inteiro base elevado a um expoente inteiro positivo.
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite o número da base: ");
 		int base = sc.nextInt();
